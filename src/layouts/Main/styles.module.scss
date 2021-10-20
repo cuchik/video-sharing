@@ -1,0 +1,27 @@
+.wrapper {
+  padding-bottom: 40px;
+}
+.pageHeader {
+  padding: 15px 0;
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  > span {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .homeIcon {
+    margin-right: 20px;
+    font-size: 45px;
+  }
+}
+.mainContentWrapper {
+  max-width: 1024px;
+  margin: 15px auto;
+  min-height: calc(100vh - 215px);
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
